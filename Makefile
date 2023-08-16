@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -Wall -g -I/path/to/include -I/rapidjson -I/view -I/bcm2835
-LDFLAGS = -lwiringPi -lst7735
+LDFLAGS = -lwiringPi -lst7735 -lcurl
 
 SRCS = test.cpp 
 OBJS = $(SRCS:.cpp=.o)
