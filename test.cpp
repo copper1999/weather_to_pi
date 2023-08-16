@@ -1,5 +1,5 @@
 #include <wiringPi.h>
-#include "inc/curl/include/curl/curl.h"
+#include "inc/include/curl/curl.h"
 #include "st7735.h"
 
 #define PIN 3

@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -g -I/path/to/curl/include -I/rapidjson -I/view -I/bcm2835
+CXXFLAGS = -Wall -g -I/path/to/include -I/rapidjson -I/view -I/bcm2835
 LDFLAGS = -lwiringPi -lst7735
 
 SRCS = test.cpp 
